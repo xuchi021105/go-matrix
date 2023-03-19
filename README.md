@@ -1,0 +1,2 @@
+# go-matrix
+由于看到大佬朋友用awk在终端里面实现了黑客帝国中代码雨的效果,所以想用go语言也实现一个,之后在GitHub上找到了gomatrix,查看源代码并借鉴思路仿写了一个(gomatrix是用goroutine来控制雨的,而我仿写的是同步控制)
