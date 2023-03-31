@@ -4,3 +4,7 @@
 ## 效果图
 
 ![Image](https://github.com/xuchi021105/Images/blob/main/go-matrix/matrix.gif)
+
+## 博客相关文章
+
+[matrix](https://xuchi021105.github.io/go/go-matrix.html)

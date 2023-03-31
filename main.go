@@ -233,7 +233,7 @@ func main() {
 			time.Sleep(time.Millisecond * time.Duration(downSpeed))
 			sync.mutex.Lock()
 			// curSize的值是动态变化的,每次会执行一个新的for循环
-			for i := 0; i < curSize.width; i++ {
+			for i := 0; i < curSize.width; i++ { // for循环可以不用整个遍历的,遍历一个动态slice就可以,程序还有优化的地方,当然在生成Stream的协程中需要借助Set的帮助(去重),在blog提吧,程序中就不改了
 
 				stream := sync.colStreams[i]
 
